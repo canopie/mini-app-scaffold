@@ -1,0 +1,20 @@
+{
+  "name": "my-mini-app",
+  "version": "1.0.0",
+  "description": "My Description",
+  "author": "CANOPIE PTY LTD",
+  "debug": true,
+  "pages": [
+    "pages/home/home"
+  ],
+  "permissions": {
+    "scope.userInfo": {
+      "description": "Your <platform> YYY information to provide you with customized XXX"
+    }
+  },
+  "dependencies": {
+    "material": "^11.0.0",
+    "canopie/cwc": "^1.0.0",
+    "canopie/sdk": "^1.0.0"
+  }
+}

@@ -1,0 +1,13 @@
+<view class="page-root">
+    <view class="setting-btn">
+      <icon-button 
+        id='setting-button' 
+        icon='settings' 
+        label='settings' 
+        @tap={{onTap}}
+      />
+    </view>
+    <view class="user-info">
+      <text class="user-name">{{name}}</text>
+    </view>
+</view>

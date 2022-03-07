@@ -1,0 +1,18 @@
+# npm files
+node_modules/
+package.json
+package-lock.json
+tsconfig.json
+
+# interim files
+pages/*/c-page-*.js
+pages/*/*.css.js
+pages/*/*.ts
+pages/*/*.html
+/*.ts
+
+# output
+dist/
+
+# cache
+.canopie/*
